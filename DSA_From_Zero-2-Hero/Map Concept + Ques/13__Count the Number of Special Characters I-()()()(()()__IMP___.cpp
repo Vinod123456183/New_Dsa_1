@@ -15,4 +15,32 @@
                 Ans++;
             }
         }
-        return Ans;
+
+
+
+
+
+
+class Solution {
+public:
+    int numberOfSpecialChars(string word) {
+        vector<int> lowFreq(26, 0);  
+        vector<int> upFreq(26, 0);        
+        int cntWord = 0;
+
+        for (char ch : word) {
+            if (islower(ch)) { 
+                    lowFreq[ch - 'a']++;  
+            } else 
+                upFreq[ch - 'A']++; 
+        }
+
+        for (int i = 0; i < 26; i++) {
+            if (lowFreq[i] > 0 && upFreq[i] > 0) {
+                cntWord++;
+            }
+        }
+        return cntWord;  
+    }
+};
+
