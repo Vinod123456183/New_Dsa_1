@@ -26,7 +26,7 @@ Explanation: You can swap s[0] = 'a' and s[1] = 'a' to get "aa", which is equal 
             return 0;
         if (s == goal) {
             unordered_set<char> st(s.begin(), s.end());
-            return st.size() < s.size();
+            return st.size() < s.size(); // important
         }
         vector<int> ar;
         for (int i = 0; i < s.size(); i++) {
