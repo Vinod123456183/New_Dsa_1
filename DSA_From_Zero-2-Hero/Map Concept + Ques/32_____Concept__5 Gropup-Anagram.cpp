@@ -13,6 +13,10 @@ Output: [["a"]]
         vector<vector<string>>ans;
         unordered_map<string,vector<string>>mp;
 
+// har element ko le rhe h
+// sort
+// map sorted with vector s
+
         for(int i=0; i<s.size(); i++) {
             string El = s[i];
             string temp = El;               // important
