@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ASUS/OneDrive/Desktop/CPP",
-      "program": "c:/Users/ASUS/OneDrive/Desktop/CPP/build/Debug/outDebug",
+      "cwd": "c:/Users/ASUS/OneDrive/Desktop/CPP/Code-Forces/800+",
+      "program": "c:/Users/ASUS/OneDrive/Desktop/CPP/Code-Forces/800+/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
